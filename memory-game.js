@@ -414,7 +414,6 @@ function checkForGameOver() {
       let highScore = localStorage.getItem("highscore");
       if (currentScore > highScore) {
         // we have a new high score
-        // TODO: Update high score + show message
         setHighScore(currentScore);
         alert("New High Score!");
       }
